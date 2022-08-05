@@ -15,3 +15,12 @@ export const Container = styled.div`
         margin-top: 20px;
         text-align: center;
     }
+
+    .div-list {
+        /* flex: 1; */
+        width: 100%;
+        height: 500px;
+        overflow-y: scroll;
+        padding: 0 200px;
+    }
+`;
