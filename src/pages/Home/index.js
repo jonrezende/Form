@@ -2,7 +2,7 @@ import React, { useEffect, useState} from "react";
 import { api } from "../../components/services/api";
 import { Container } from "./styles";
 import { TableList } from "../../components/Table";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 
 export function Home() {
     const [listArray, setListArray] = useState([]);
